@@ -5,7 +5,7 @@ Jubeat Plugin for Asphyxia Core
 # Supported Versions
 
 - Festo
-- Ave.
+- Ave
 
 # Versions
 
@@ -26,7 +26,7 @@ Jubeat Plugin for Asphyxia Core
 
 - [ ] Customized Turn Run. (Currently can't cuz Jubeat courses limit is 60, need someone to find how to patch it.)
 - [ ] Completely implement Light Chat + other events
-- [ ] jbox_ave.get_image may be unstable and softlock the game, possibly implement?
+- [ ] `jbox_ave.get_image` may be unstable and softlock the game, possibly implement?
 
 # Credits
 

@@ -10,6 +10,8 @@ export async function register() {
     }
     R.GameCode("L44");
     R.Contributor("yuanqiuye", "https://github.com/yuanqiuye")
+    R.Contributor("Chara_", "https://github.com/ItsCharaHere")
+    R.Contributor("asesidaa", "https://github.com/asesidaa")
     R.Route("gametop.regist",getProfile);
     R.Route("gametop.get_info", Getinfo);
     R.Route("gametop.get_pdata", getProfile);
