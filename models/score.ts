@@ -11,5 +11,5 @@ export interface Score {
     clearCount: number;
     fullcomboCount: number;
     excellentCount: number;
-    isHardMode: boolean;
+    isHardMode: number;
   }

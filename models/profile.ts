@@ -2,6 +2,7 @@ export default interface Profile {
     collection: "profile";
     navi?: number,
     jubeatId: number;
+    eventFlag: number;
     name: string;
     emo: number[];
     lastPlayTime?: number;
@@ -41,6 +42,7 @@ export default interface Profile {
     matching?: number;
     hazard?: number;
     hard?: number;
+    target?: number;
 
     secretList?: number[];
     themeList?: number;
@@ -50,9 +52,7 @@ export default interface Profile {
     partsList?: number[];
 
     secretListNew?: number[];
-    themeListNew?: number;
+    themeListNew?: number[];
     markerListNew?: number[];
     titleListNew?: number[];
-
-    lastCourseId?: number;
 }

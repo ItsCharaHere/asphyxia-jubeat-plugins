@@ -8,7 +8,7 @@ return send.object(
         entrant_nr: K.ITEM("u32", 0, { time }),
         interval: K.ITEM("s16", 0),
         entry_timeout: K.ITEM("s16", 15),
-        waitlist: K.ATTR({ count: "0" }, { music: [] }),
+        waitlist: K.ATTR({ count: "0" }, { music: {} }),
     },
     },
     { compress: true }
@@ -37,7 +37,7 @@ return send.object(
 };
 
 export const Refresh = (req: EamuseInfo, data: any, send: EamuseSend) => {
-// To Do: Localmatching working
+
 return send.object(
     {
     data: { refresh_intr: K.ITEM("s16", 0), start: K.ITEM("bool", true) },

@@ -1,5 +1,7 @@
 export default (_: EamuseInfo, data: any, send: EamuseSend) => {
+  
   const locId = $(data).element("shop").content("locationid");
+  console.log({...require("../templates/gameInfos.ts")()}, {depth:null});
   return send.object(
     {
       data: {
